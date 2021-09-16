@@ -1,0 +1,130 @@
+.wholeApp {
+  background-color: black;
+
+}
+
+.wrapper {
+  background: rgba(0,0,0,0.7);
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.details {
+  position: fixed;
+  top: 25%;
+  width:750px;
+  height: auto;
+  background: white;
+  z-index: 5;
+  align-content: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.updateNotes {
+  height: 100px;
+}
+
+.row1 {
+  margin-bottom: 10px;
+}
+
+.row2 {
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitLeadButton {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.detailsUpdate {
+
+}
+
+.noteDetails {
+  background-color: #FFCFBB;
+  height: 150px;
+  overflow: auto;
+margin-bottom: 20px;
+}
+
+.updateButton {
+margin-top: 20px;
+align-content: center;
+justify-content: center;
+display: flex;
+}
+
+.addressDetails {
+  display: flex;
+  column-gap: 5px;
+}
+.phoneNumberDetails {
+  display: flex;
+  column-gap: 5px;
+}
+.emailDetails {
+  display: flex;
+  column-gap: 5px;
+
+}
+
+.main {
+  padding: 20px;
+  background-color: #FFCFBB;
+  border-radius: 10px;
+}
+
+.dateDetails {
+  margin-top: 30px;
+}
+
+.xbutton {
+  display: flex;
+  justify-content: right;
+  align-content: right;
+}
+
+.arronContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leadListContainer {
+  margin-top: 40px;
+
+}
+
+.insideNotes {
+  padding:10px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.switchButton {
+  border-radius: 5px;
+  background-color: #FFA681;
+  color: white;
+  border-style: none;
+  
+}
